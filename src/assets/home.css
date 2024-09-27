@@ -1,0 +1,62 @@
+#app {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: #69314b;
+  }
+  
+  header {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(45, 75, 183);
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .title {
+    width: 42%;
+  }
+  
+  .btn-navigate {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin: 1rem;
+    background-color: rgb(38, 226, 138);
+    color: black;
+    text-decoration: none;
+  }
+  
+  .nav-buttom:hover {
+    background-color: rgb(48, 173, 104);
+  }
+
+  h1 {
+    font-family: 'Nunito', sans-serif; 
+    font-size: 2.5em; 
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    padding: 10px; 
+  }
+  
+  .home {
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-image: url('books.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #fff; 
+    padding: 50px; 
+  }
